@@ -11,7 +11,10 @@ public class CircularShift {
     System.out.println("S2, S3: " + cs.circular(string2, string3));
     System.out.println("S1, S3: " + cs.circular(string1, string3));
   }
-
+  
+  /**
+   * Checks for shift. 
+   */
   private boolean circular(String string1, String string2) {
     return (string1.length() == string2.length()
         && (string1.concat(string1).indexOf(string2) >= 0));
