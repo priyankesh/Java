@@ -1,3 +1,4 @@
+package SimpleInsertionSort;
 /**
  * Insertion Sort<br>
  * 
@@ -31,7 +32,7 @@ public class InsertionSort {
   private void insertionSort(int[] arr) {
     int key, i;
     for (int j = 1; j < arr.length; j++) { // 1) j taken from 1 instead of 2
-      System.out.print("After " + j + " step: ");
+      System.out.print("After step " + j+": ");
       printArray(arr); // printing array after each step for better explanation
       key = arr[j];
       i = j - 1;
