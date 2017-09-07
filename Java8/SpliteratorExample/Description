@@ -1,0 +1,6 @@
+Read data from a file and convert it to stream of employees.
+
+Output:
+Employee [name=Ram Kumar, age=28, department=R&D]
+Employee [name=Gopal Sharma, age=45, department=HR]
+Employee [name=Shyam Sinha, age=30, department=Developer]
