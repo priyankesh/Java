@@ -7,7 +7,7 @@ public class EmployeeSpliterator implements Spliterator<Employee> {
 
   private Spliterator<String> lineSpliterator;
   private String name;
-  private int age;
+  private Integer age;
   private String department;
 
   public EmployeeSpliterator(Spliterator<String> lineSpliterator) {

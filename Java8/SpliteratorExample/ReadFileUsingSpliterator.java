@@ -18,7 +18,7 @@ public class ReadFileUsingSpliterator {
       Spliterator<String> lineSpliterator = lines.spliterator();
       Spliterator<Employee> employeeSpliterator = new EmployeeSpliterator(lineSpliterator);
 
-      Stream<Employee> employee = StreamSupport.stream(employeeSpliterator, false);
+      Stream<Employee> employee = StreamSupport.stream(employeeSpliterator, false); // false as we dont need multi-threading.
       employee.forEach(System.out::println);
 
     } catch (IOException ioe) {
