@@ -45,6 +45,7 @@ h1{
 }
 
 .endgame {
+	font-family: 'Lobster', cursive;
   display: none;
   width: 200px;
   top: 120px;
