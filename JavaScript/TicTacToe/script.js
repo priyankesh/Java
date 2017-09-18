@@ -58,7 +58,7 @@ function checkWin(board, player) {
 function gameOver(gameWon){
   for(let index of winCombos[gameWon.index]) {
     document.getElementById(index).style.backgroundColor =
-                  gameWon.player == huPlayer ? "blue" : "red";
+                  gameWon.player == huPlayer ? "#42A5F5" : "#EF5350";
   }
   for(var i = 0; i < cells.length; i++) {
     cells[i].removeEventListener('click', turnClick, false);
@@ -82,7 +82,7 @@ function bestSpot() {
 function checkTie(){
   if(emptySquares().length  == 0){
     for(var i = 0; i < cells.length; i++){
-      cells[i].style.backgroundColor = "green";
+      cells[i].style.backgroundColor = "#A5D6A7";
       cells[i].removeEventListener('click', turnClick, false);
     }
     declareWinner("Tie game!");
@@ -141,51 +141,6 @@ function minimax(newBoard, player){
   
   return moves[bestMove];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
