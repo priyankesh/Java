@@ -2,14 +2,14 @@ html, body {
 	background-color: #1d1e1c;
 }
 td {
-  border: 2px solid #A92F41;
-  color: #B7A85C;
+  border: 2px solid #2ABB9B;
+  color: #ef4036;
   height: 100px;
   width: 100px;
   text-align: center;
   vertical-align: middle;
   font-family: sans-serif;
-  font-size: 70px;
+  font-size: 85px;
   cursor: pointer;
 }
 
@@ -18,7 +18,7 @@ table {
   position: absolute;
   left: 50%;
   margin-left: -155px;
-  top: 50px;
+  top: 200px;
 }
 
 table tr:first-child td {
@@ -36,12 +36,19 @@ table tr td:first-child {
 table tr td:last-child {
   border-right: 0;
 }
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 6em;
+	color: #ef4036;
+	position:absolute;
+    left: 592px;
+}
 
 .endgame {
   display: none;
   width: 200px;
   top: 120px;
-  background-color: rgba(205,133, 63, 0.8);
+  background-color: rgba(205,133, 63, 0.6);
   position: absolute;
   left: 50%;
   margin-left: -100px;
@@ -54,7 +61,13 @@ table tr td:last-child {
 }
 
 .button{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	background-color: #4CAF50;
+	padding: 15px 32px;
+	border: none;
+	border-radius: 15px;
 	position:absolute;
-    left: 743px;
-    top: 400px;
+    left: 45%;
+    top: 70%;
 }
