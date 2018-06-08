@@ -1,15 +1,5 @@
 package SimpleInsertionSort;
-/**
- * Insertion Sort<br>
- * 
- * Algorithm is from "Introduction to Algorithms, Third Edition By Thomas H. Cormen, Charles E.
- * Leiserson, Ronald L. Rivest and Clifford Stein" <br>
- * Chapter 2: Getting started <br>
- * Page: 18
- * 
- * @author Priyankesh Nigam
- *
- */
+
 public class InsertionSort {
 
   public static void main(String[] args) {
