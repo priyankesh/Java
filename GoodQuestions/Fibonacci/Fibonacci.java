@@ -9,7 +9,7 @@ public class Fibonacci {
         Fibonacci fib = new Fibonacci();
         memoList.add(0);
         for (int a = 0; a <= 10; a++)
-            System.out.println(a + " Fibonacci: " + fib.fibo(a));
+            System.out.println(a + " Fibonacci:  " + fib.fibo(a));
     }
 
     private int fibo(int n) {
